@@ -1,0 +1,146 @@
+body{
+    background-color:rgb(183, 195, 174);
+    padding-top:80px;
+    height:2000px;
+    margin:0;
+    padding-left:85px;
+    padding-right:10px;
+}
+
+
+   
+.header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    background-color: #597161;
+    color: #1D0200;
+    margin:0;
+    border-bottom:2px solid #1D0200;
+    padding-right:10px;
+}
+.logoimagediv{
+    padding:8px;
+}
+.logoimage{
+    width:60px;
+    height:60px;
+    border-radius :30px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: rgb( 72, 60, 50 );
+}
+.heading{
+    padding-top:15px;
+    padding-bottom:10px;
+    font-size: 40px;;
+    margin:0;
+    font-weight:700;
+}
+.headingnamediv{
+    vertical-align: bottom;
+}
+.headingname{
+    margin:0;
+    padding-top:60px;
+    font-weight:600
+    
+}
+
+
+
+
+
+.sidebar{
+    position:fixed;
+    top:82px;
+    left:0;
+    bottom:0;
+    width:80px;
+    margin:0;
+    padding:0;
+    background-color: #597161;
+    color: #1D0200;
+    display:flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    border-right: 2px solid #1D0200;
+}
+.sidebarelement{
+    border-bottom: 2px solid #1D0200 ;
+    width:80px;
+    align-items: center;
+    height:150px;
+    margin-bottom:20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sidebarlogo{
+    height:50px;
+    width:50px;
+    align-items: center;
+}
+.sidebarcaption{
+    margin:0;
+    padding-top:5px;
+    font-size: 13px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.sidebarcaptionreplacement{
+    font-size:10px;
+}
+.profilephoto{
+    height:50px;
+    width:50px;
+    border-radius: 30px;
+    margin-top:10px;
+}
+
+
+
+
+
+
+.stockPage{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+.editproductList{
+    font-size: 20px;;
+    display: flex;
+    justify-content: flex-end;
+}
+.edit-list{
+    border: 2px solid #1D0200;
+    padding:2px;
+}
+.edit-list:hover{
+    cursor:pointer;
+}
+.productList{
+    display: flex;
+    flex-direction: column;
+}
+.product{
+    text-align: left;
+    margin:5px 5px 5px 5px ;
+}
+.productLink{
+    color:rgb( 72, 60, 50 );
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 30px;
+}
+.productLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(70, 70, 215)
+}
